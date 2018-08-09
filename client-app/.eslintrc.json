@@ -1,0 +1,24 @@
+{
+  "extends": ["eslint:recommended", "airbnb-base", "plugin:react/recommended"],
+  "parser": "babel-eslint",
+  "plugins": [
+    "react", "jsx-a11y"
+  ],
+  "globals": {
+    "log": false,
+    "isNaN": false,
+    "window": false,
+    "document": false
+  },
+  "rules": {
+    "class-methods-use-this": 0
+  },
+  "settings": {
+    "react": {
+      "createClass": "createReactClass",
+      "pragma": "React",
+      "version": "16.2.0"
+    },
+    "propWrapperFunctions": ["forbidExtraProps"]
+  }
+}

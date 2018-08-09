@@ -1,12 +1,12 @@
-import { Jumbotron } from 'react-bootstrap';
-import React, { Component } from 'react';
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const Header = () => {
-  return (
-    <Jumbotron>
-      Whats the Craic
-    </Jumbotron>
-  );
-}
+const Header = () => (
+    <nav>
+      <Link to="/" activeClassName="active">Home</Link>
+      {' | '}
+      <Link to="/about" activeClassName="active">About</Link>
+    </nav>
+);
 
 export default Header;
