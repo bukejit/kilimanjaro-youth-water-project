@@ -1,0 +1,18 @@
+.logo {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.header-container {
+  height: 4rem;
+}
+
+.custBreadcrumbs {
+  justify-content: flex-end;
+}
+
+.title {
+  align-self: center;
+}
