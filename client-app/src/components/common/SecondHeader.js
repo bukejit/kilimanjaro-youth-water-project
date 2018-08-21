@@ -8,7 +8,6 @@ const SecondHeader = () => (
         <Link to="/" className="navbar-brand logo" activeClassName="active">
           <img src="http://placehold.it/300x60?text=Logo" width="150" height="30" alt="LOGO"></img>
         </Link>
-        <h3 className="text-light">Kilimanjaro Youth Water Project</h3>
         <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
           <span className="navbar-toggler-icon"></span>
         </button>
