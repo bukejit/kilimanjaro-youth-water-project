@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import SecondHeader from './common/SecondHeader';
+import Header from './common/Header';
 import './App.css';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <SecondHeader />
+        <Header />
         <div className="push">
         { this.props.children }
         </div>
