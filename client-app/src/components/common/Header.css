@@ -5,6 +5,19 @@
   padding-bottom: 20px !important;
 }
 
+@media(max-width: 400px) {
+  .kili-navbar {
+    position: relative;
+  }
+  .kili-navbar-logo {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    width: 50%;
+  }
+}
+
 @media(min-width: 992px) {
   .kili-navbar{
     padding-left: 100px !important;
@@ -15,14 +28,13 @@
 }
 
 .kili-navbar-logo {
-  width:auto;
-  height:45px;
+  height: 45px;
 }
 
 @media(min-width: 992px) {
   .kili-navbar-logo {
-    width:auto;
-    height:60px;
+    width: 280px;
+    height: 60px;
   }
 }
 
