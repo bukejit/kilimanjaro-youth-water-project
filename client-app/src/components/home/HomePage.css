@@ -1,3 +1,4 @@
-.kili-home {
-  height: 900px;
+.fill-screen {
+  background-size: cover;
+  background-position: center;
 }
