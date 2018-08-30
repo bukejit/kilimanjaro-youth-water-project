@@ -7,7 +7,7 @@ const HomePageSlide = ({
   title, imageUrl, subtitle, url, buttonText = 'LEARN MORE',
 }) => {
   const slideStyle = {
-    background: `url(${imageUrl})`,
+    background: `url(${imageUrl}) no-repeat`,
   };
 
   const buttonWrapperStyle = {

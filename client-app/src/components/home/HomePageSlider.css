@@ -2,13 +2,13 @@
   position: relative;
   margin-top: -70px;
   margin-bottom: 30px;
-  color: black;
+  color: white;
 }
 
 .slick-dots li button:before {
-  color: black;
+  color: white;
 }
 
 .slick-dots li.slick-active button:before {
-  color: black;
+  color: white;
 }

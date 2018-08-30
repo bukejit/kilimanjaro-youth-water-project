@@ -17,7 +17,20 @@ class HomePageSlider extends React.Component {
         subtitle: 'This is test of the short description',
         imageUrl: well,
         url: '/About',
-      }],
+      },
+      {
+        title: 'Test Title',
+        subtitle: 'This is test of the short description',
+        imageUrl: well,
+        url: '/About',
+      },
+      {
+        title: 'Test Title',
+        subtitle: 'This is test of the short description',
+        imageUrl: well,
+        url: '/About',
+      },
+      ],
     };
   }
 
