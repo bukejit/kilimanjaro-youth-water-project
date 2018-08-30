@@ -64,12 +64,12 @@
 .image-slide-fullheight-row {
   height:100%;
   overflow: hidden;
-  min-height: 500px !important;
+  min-height: 400px !important;
 }
 
 @media(min-width: 992px) {
   .image-slide-fullheight-row {
-    min-height: 400px !important;
+    min-height: 500px !important;
   }
 }
 
