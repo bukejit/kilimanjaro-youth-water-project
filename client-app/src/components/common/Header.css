@@ -6,19 +6,6 @@
   min-height: 60px !important;
 }
 
-@media(max-width: 400px) {
-  .kili-navbar {
-    position: relative;
-  }
-  .kili-navbar-logo {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    margin: auto;
-    width: 50%;
-  }
-}
-
 @media(min-width: 992px) {
   .kili-navbar{
     padding-left: 100px !important;
@@ -35,8 +22,26 @@
 
 @media(min-width: 992px) {
   .kili-navbar-logo {
-    width: 280px;
+    width: 240px;
     min-height: 60px;
+  }
+}
+
+@media(max-width: 400px) {
+  .kili-navbar {
+    min-height: 60px !important;
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+  }
+  .kili-navbar-logo {
+    margin: auto;
+    width: 180px;
+  }
+}
+
+@media(max-width: 320px) {
+  .kili-navbar-logo {
+    width: 160px;
   }
 }
 
